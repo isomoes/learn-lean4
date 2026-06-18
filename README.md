@@ -368,10 +368,10 @@ Initialize the project at the repo root (see Setup) so a single `lakefile.toml` 
 ### Progress checklist
 
 **Phase 0 — Setup**
-- [ ] elan installed; `lean`, `lake`, `elan` versions print
-- [ ] Neovim + lean.nvim installed (elan from the AUR)
-- [ ] Mathlib project created and `lake exe cache get` done
-- [ ] `lake build` succeeds; `#check TopologicalSpace` shows type info in InfoView
+- [x] elan installed; `lean`, `lake`, `elan` versions print
+- [x] Neovim + lean.nvim installed (elan from the AUR)
+- [x] Mathlib project created and `lake exe cache get` done
+- [x] `lake build` succeeds; `#check TopologicalSpace` shows type info in InfoView
 
 **Phase 1 — Natural Number Game**
 - [ ] Tutorial + Addition + Multiplication + Power worlds
