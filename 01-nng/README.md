@@ -8,7 +8,7 @@
 | World | Status | Notes |
 | --- | --- | --- |
 | Tutorial | ✅ done | [tutorial-world.lean](tutorial-world.lean) |
-| Addition | ⬜ todo | — |
+| Addition | 🚧 wip | [addition-world.lean](addition-world.lean) — `zero_add` ✅ |
 | Multiplication | ⬜ todo | — |
 | Power | ⬜ todo | — |
 | Implication (`intro`/`exact`/`apply`) | ⬜ todo | — |
@@ -21,4 +21,4 @@
 
 ## How I take notes here
 
-One `.lean` file per world, created when I finish (or while working through) it. Prose goes in `/- ... -/` comments; the world's key proof is reproduced over a minimal NNG environment so the file actually type-checks (`lake env lean 01-nng/<world>.lean`). Each file records: status, tactics/lemmas the world introduced, and any proof that taught me something — with the goal-state trace, not just the final answer.
+One `.lean` file per world, created when I finish (or while working through) it. Prose goes in `/- ... -/` comments; the world's key proof is reproduced in core Lean over the real `Nat` (no Mathlib import) so the file actually type-checks (`lake env lean 01-nng/<world>.lean`). Because real Lean's `rfl` computes and the whole library is available, the proofs are written NNG-style (induction + the world's lemmas) to mirror the game's moves, with a note in each file on where the game's *locked* behaviour differs. Each file records: status, tactics/lemmas the world introduced, and any proof that taught me something — with the goal-state trace, not just the final answer.
