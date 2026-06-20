@@ -9,7 +9,7 @@
 | --- | --- | --- |
 | Tutorial | ✅ done | [tutorial-world.lean](tutorial-world.lean) |
 | Addition | 🚧 wip | [addition-world.lean](addition-world.lean) — `zero_add` ✅ |
-| Multiplication | ⬜ todo | — |
+| Multiplication | ✅ done | [multiplication-world.lean](multiplication-world.lean) — `mul_comm`, `mul_assoc`, distributivity ✅ |
 | Power | ⬜ todo | — |
 | Implication (`intro`/`exact`/`apply`) | ⬜ todo | — |
 | Advanced Addition | ⬜ optional | — |
