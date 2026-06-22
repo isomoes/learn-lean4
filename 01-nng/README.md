@@ -10,8 +10,8 @@
 | Tutorial | ✅ done | [tutorial-world.lean](tutorial-world.lean) |
 | Addition | 🚧 wip | [addition-world.lean](addition-world.lean) — `zero_add` ✅ |
 | Multiplication | ✅ done | [multiplication-world.lean](multiplication-world.lean) — `mul_comm`, `mul_assoc`, distributivity ✅ |
+| Implication (`intro`/`exact`/`apply`/`symm`) | ✅ done | [implication-world.lean](implication-world.lean) — `succ_inj`, `zero_ne_succ`, `2+2≠5` ✅ |
 | Power | ⬜ todo | — |
-| Implication (`intro`/`exact`/`apply`) | ⬜ todo | — |
 | Advanced Addition | ⬜ optional | — |
 | Less-Or-Equal | ⬜ optional | — |
 | Advanced Multiplication | ⬜ optional | — |
